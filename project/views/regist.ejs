@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>注册</title>
+    <%- include head%>
+</head>
+
+<body>
+
+    <h3>曾哥牛逼！</h3>
+
+    <div class="form-box">
+        <form action="/users/regist" method="post">
+            <input type="text" name="username" placeholder="请输入用户名"><br/>
+            <input type="password" name="password" placeholder="请输入密码"><br/>
+            <input type="password" name="password2" placeholder="确认密码"><br/>
+            <input type="text" name="username2" placeholder="取一个别名"><br/>
+            <input type="tel" name="phone" placeholder="请输入手机号码"><br/>
+            <input type="email" name="email" placeholder="请输入邮箱号"><br/>
+            <span>性别：男</span><input type="radio" name="sex" value="男"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;女</span><input type="radio" name="sex" value="女"><br/>
+            <select name="class">
+                <option value="B200603" disabled selected hidden>--请选择所属班级--</option>
+                <option value="B200601">B200601</option>
+                <option value="B200602">B200602</option>
+                <option value="B200603">B200603</option>
+            </select>
+            <input type="text" name="hobby" placeholder="描述一下你的兴趣爱好"><br/>
+            <input type="submit" name="" value="注册">
+        </form>
+        <div>已有账号，<a href="/login">立即登录</a></div>
+    </div>
+</body>
+
+</html>
