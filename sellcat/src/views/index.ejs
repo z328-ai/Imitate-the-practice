@@ -1,0 +1,165 @@
+<%- include('part/header', { title: 'sellcat' })%>
+
+    <!-- 导航栏 -->
+    <div class="header">
+        <!-- logo -->
+        <div class="logo">
+            <img src="./images/下载 (1).svg">
+        </div>
+
+        <!-- 车型导航 -->
+        <div class="headstock">
+            <ul>
+                <li><a href="#">MODEL S</a></li>
+                <li><a href="#">MODEL 3</a></li>
+                <li><a href="#">MODEL X</a></li>
+                <li><a href="#">MODEL Y</a></li>
+                <li><a href="#">CYBERTRUCK</a></li>
+                <li><a href="#">POWERWALL</a></li>
+            </ul>
+        </div>
+        <!-- 右边商城，登录与菜单栏 -->
+        <div class="store">
+            <div>
+                <a href="#">在线商店</a>
+                <a href="#">登录</a>
+            </div>
+            <div class="line">
+                <div class="top-line"></div>
+                <div class="mid-line"></div>
+                <div class="und-line"></div>
+            </div>
+        </div>
+        <div class="Return-top"><img src="./images/下载 (2).svg"></div>
+    </div>
+    <!-- 分屏 -->
+    <div id="fullpage">
+        <!-- 第一个屏幕 -->
+        <div class="section section-one">
+            <div class="MODELS-one MODELS">
+                <h1>
+                    <ul>
+                        <li class="disappear">Model S</li>
+                        <li>Model 3</li>
+                        <li class="disappear">Model X</li>
+                    </ul>
+                </h1>
+                <div>
+                    <a href="#">定制我的 MODEL 3</a>
+                    <a href="#">了解 MODEL 3</a>
+                </div>
+                <a href="#">预约试驾</a>
+            </div>
+            <ul class="crosswise">
+                <li class="lirun"></li>
+            </ul>
+            <ul class="right-border">
+                <li><a href="#">认证二手车</a></li>
+                <li><a href="#">车辆置换</a></li>
+                <li><a href="#">ROADSTER</a></li>
+                <li><a href="#">ENERGY</a></li>
+                <li><a href="#">金融服务</a></li>
+                <li><a href="#">如何充电</a></li>
+                <li><a href="#">找到我们</a></li>
+                <li><a href="#">问题解答</a></li>
+                <li><a href="#">在线商城</a></li>
+            </ul>
+            <div class="overspread"></div>
+            <ul class="page-break">
+                <li><span></span></li>
+                <li><span class="present"></span></li>
+                <li><span></span></li>
+            </ul>
+            <div class="tuihuo">
+                您可在7日内或1，600公里内（以先到者为准）退还您的车辆
+            </div>
+        </div>
+
+        <!-- 第二个屏幕 -->
+        <div class="section section-two">
+            <div class="MODELS-two MODELS">
+                <h1>探索 Tesla</h1>
+                <div>
+                    <a href="./map.html" target="_blank">莅临体验店</a>
+                    <a href="#">准现车</a>
+                    <a href="#">认准二手车</a>
+                </div>
+            </div>
+            <video data-autoplay muted>
+                <source data-src="./images/experience-hero-desktop.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第三个屏幕 -->
+        <div class="section section-three">
+            <div class="MODELS-three MODELS">
+                <h1>全方位能源供应</h1>
+                <h4>太阳能设备和 Powerwall</h4>
+                <div>
+                    <a href="#">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <!-- 第四个屏幕 -->
+        <div class="section section-four">
+            <div class="MODELS-four MODELS">
+                <h1>充电产品和精品配件</h1>
+                <div>
+                    <a href="#">立即购买</a>
+                </div>
+            </div>
+            <video data-autoplay muted>
+                <source data-src="./images/accessories-hero-desktop.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第五个屏幕 -->
+        <div class="section section-fifth">
+            <div class="MODELS-fifth MODELS">
+                <h1>Model Y</h1>
+                <div>
+                    <a href="#">立即订阅</a>
+                </div>
+            </div>
+        </div>
+        <div class="fp-auto-height section section-sixth">
+            <div>
+                <ul class="link">
+                    <li>Tesla © 2020</li>
+                    <li>沪ICP备14038430号-1</li>
+                    <li>隐私和法律</li>
+                    <li>联系我们</li>
+                    <li>工作机会</li>
+                    <li>最新消息</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 左侧菜单栏 -->
+    <ul id="myMenu">
+        <li data-menuanchor="firstPage" class="active">
+            <a href="#firstPage">
+                <span>TESLA</span>
+            </a>
+        </li>
+        <li data-menuanchor="secondPage">
+            <a href="#secondPage">
+                <span>探索 TESLA</span>
+            </a>
+        </li>
+        <li data-menuanchor="thirdPage">
+            <a href="#thirdPage">
+                <span>全方位能源供应</span>
+            </a>
+        </li>
+        <li data-menuanchor="fourthPage">
+            <a href="#fourthPage">
+                <span>充电产品和精品配件</span>
+            </a>
+        </li>
+        <li data-menuanchor="fifthPage">
+            <a href="#fifthPage">
+                <span>Model Y</span>
+            </a>
+        </li>
+    </ul>
+
+    <script src="../js/1.js"></script>
